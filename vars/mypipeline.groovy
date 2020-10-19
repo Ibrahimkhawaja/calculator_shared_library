@@ -8,7 +8,7 @@ def call(body) {
         stage('Add') {
             steps {
                 script {
-                    if (env.JOB_NAME == 'projectA') {
+                    if (env.JOB_NAME == 'Project-C') {
                         add()
                     }
                 }
